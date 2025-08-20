@@ -252,8 +252,9 @@ h3 {
 .greens:hover{
     background-color: #ffffff11;
 }
-#porfolio{
+#portfolio{
     padding: 100px 0;
+    
 }
 .card12{
     position: relative;
@@ -332,105 +333,31 @@ h3 {
     
     background-color: #f6fafd;
 }
-
-.card23{
+.pricing-item2
+ {
     background-color: #2487ce;
-    height: 500px;
-    padding:50px 40px;
-    color: #ffffff;
+    color: white;
+    transform: scale(1.02, 1.1);
+    padding: 60px 40px;
 }
-.card23 h3{
-    color: #ffffff;
-    margin-bottom: 20px;
-
+.pricing-item2 button {
+    border: 1px solid white;
+    color: white;
 }
-.card23 a{
-text-decoration: none;
-color: #ffffff;
-border: 1px solid #ffffff;
-padding:10px 35px ;
-border-radius: 5px;
-
+.pricing-item {
+    background-color: rgb(250, 246, 246);
+    padding: 60px 40px;
 }
-.card23 ul li{
-    text-align: none;
-    margin-bottom: 20px;
-}
-.card22{
-    border-color: #ffffff;
-    height: 500px;
-    padding:50px 40px;
-    color: #aeaeae;
-    background-color:#ffffff;
-    position: relative;
-    right: -30px;
-}
-.card22 h3{
-    color: #ffffff;
-    margin-bottom: 20px;
-
-}
-.card22 h4 {
-color: #2487ce;
-font-size: 30px;
-}
-.card22 a{
-text-decoration: none;
-color:#aeaeae;
-border: 1px solid #aeaeae;
-padding:10px 35px ;
-border-radius: 5px;
-
-}
-.card22 a:hover{
+.accordion-body.open-body {
     background-color: #2487ce;
-}
-.card22 ul li{
-    text-align: none;
-    margin-bottom: 20px;
-}
-.card24{
-    background-color:#ffffff;
-    height: 500px;
-    padding:50px 40px;
-    color: #aeaeae;
-    background-color:white;
-      position: relative;
-    left: -30px;
-}
-.card24 h3{
-    color: #ffffff;
-    margin-bottom: 20px;
+    color: white;
 
 }
-.card24 a{
-text-decoration: none;
-color: #aeaeae;
-border: 1px solid #aeaeae;
-padding:10px 35px ;
-border-radius: 5px;
-}
-.card24 h4 {
-color: #2487ce;
-font-size: 30px;
-}
-.card24 a:hover{
+.accordion-button:not(.collapsed) {
     background-color: #2487ce;
+    color: white;
+    box-shadow: none;
 }
-.accordion-item{
-    background-color: #2487ce;
-    color: #ffffff;
-}
-.accordion-header button{
-    color:#ffffff;
-    background-color:#ffffff;
-}
-.accordion-header button:hover{
-    background-color: #2487ce;
-    opacity: 0;
-}
-
- 
 .card24 ul li{
     text-align: none;
     margin-bottom: 20px;
@@ -442,22 +369,7 @@ font-size: 30px;
 #contact{
     padding: 100px 0;
 }
-.card25{
-    width: 40%;
-}
-.loaction{
-    margin-bottom: 40px;
-}
-.card26 form input{
-border: 1px solid #aeaeae;
-width: 600px;
-}
-.card26 form input.j {
-width: 300px;
-}
-.card26 form input.k{
-width: 300px;
-}
+
 
 #footer{
     padding: 100px 0;
