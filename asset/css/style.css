@@ -256,61 +256,40 @@ h3 {
     padding: 100px 0;
     
 }
-.card12{
-    position: relative;
-    top: -60px;
+.app-box img{
+    width: 100%;
 }
-.card13{
-    position: relative;
-    top: -195px;
-    left: 14px;
-}
-.card14{
-    position: relative;
-    top: -240px;
-    left: 13px;
-}
-.card15{
-    position: relative;
-    top: -450px;
-}
-.card16{
-    position: relative;
-    top: -250px;
-    left: 15px;
-}
-.card17{
-    position: relative;
-    top: -300px;
-    left: 15px;
-}
-.info{
+.app-box-hover {
+    background-color: #f4f4f4;
+   position: relative;
+   top: -80px;
+    padding: 10px 15px;
     display: flex;
-    position: relative;
-    top: -78px;
-    
-    background-color: #ffffffb6;
-    opacity: 0;
-
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+opacity: 0;
+    transition: all .6s ease;
 }
-.info:hover{
+
+.app-box:hover .app-box-hover {
     opacity: 1;
-    transition: all 0.5 ease;
+    transform: translateY(-15px);
+    
 }
-.info .in{
+.icons{
     margin-left: 20px;
+}
+.icons i:hover{
+    color:#2487ce;
+}
 
-}
-.info .ino{
-    margin-left: 70px;
-}
-.info .ino i{
-    font-size: 25px;
-    margin-left: 10px;
-}
-.info .ino i:hover{
+
+.app-box-hover h4{
     color: #2487ce;
+    margin-bottom: 7px;
 }
+
 #team{
     padding: 100px 0;
     background-color: #f6fafd;
